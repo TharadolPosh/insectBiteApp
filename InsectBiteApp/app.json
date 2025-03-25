@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "InsectBiteApp",
+    "slug": "InsectBiteApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires access to the camera to scan wounds.",
+        "NSPhotoLibraryUsageDescription": "This app requires access to the photo library."
+      },
+      "bundleIdentifier": "com.poshp.InsectBiteApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.poshp.InsectBiteApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "508e2b76-9516-4afe-af0c-cb1887f63d86"
+      }
+    },
+    "owner": "poshp"
+  }
+}
